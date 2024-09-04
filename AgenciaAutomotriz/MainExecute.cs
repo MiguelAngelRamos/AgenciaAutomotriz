@@ -36,12 +36,19 @@ namespace AgenciaAutomotriz
                 TieneSidecar = true
             };
 
+            Camion camion = new Camion();
+            camion.Marca = "Volvo";
+            camion.Modelo = "FH";
+            camion.VelocidadMaxima = 120;
+            camion.CapacidadDeCarga = 20000;
+
             // Mostrar los detalles
             auto.MostrarDetalles();
             auto2.MostrarDetalles();
 
             moto.MostrarDetalles();
             moto2.MostrarDetalles();
+            camion.MostrarDetalles();
 
         }
     }
